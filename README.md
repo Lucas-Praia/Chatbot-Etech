@@ -1,2 +1,4 @@
 # Chatbot Etech
  Protótipo de um chatbot que irá assistir nas dúvidas recorrentes sobre a escola técnica da FPF Tech. Tal projeto é o primeiro projeto do curso técnico de desenvolvedor de software da Escola Técnica da FPF Tech.
+ O chat ainda está sendo desenvolvido na Linguagem de Programação Python, e ainda está faltando inserir mais perguntas para que o chatbot consiga escolher a melhor resposta.
+ Foi utilizado para o frontend a biblioteca do streamlit, cujo tornou o layout igual a um chatbot. Para o backend foi utilizado a bibliotecca time, para simular na hora da resposta que o chat estaria pensando em determinados segundos e a parte crucial do código é o uso da biblioteca Regex, onde através dessa biblioteca, o chat consegue fazer a comparação dos caracteres alfanuméricos e especiais e, devido isso, conseguir comparar com os caracteres da pergunta, conseguindo assim encontrar a melhor resposta.
